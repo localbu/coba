@@ -1,0 +1,9 @@
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities;
+
+.garis:hover{
+    -webkit-text-stroke:.10rem white;
+    @apply text-transparent tracking-[.30rem] lg:tracking-[1rem];
+    
+}
